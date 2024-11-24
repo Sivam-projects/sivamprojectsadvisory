@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivam Projects Advisory</title>
+    <link rel="stylesheet" href="/src/main.css">
+    <link rel="stylesheet" href="src/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <section class="navigation">
+        <div class="navbar">
+            <img src="images/logo.png" alt="Logo">
+            <div class="navbar-right">
+                <div class="navbar-item">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="services.html">Services</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="about.html">About Us</a>
+                </div>
+                <div class="navbar-item-btn">
+                    <a href="#book-appointment">
+                        <button class="book-btn">Book an Appointment</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Carousel Content-->
+    <section class="Carousel">
+        <div class="container-carousel">
+            <div class="content">
+                <div class="title">
+                    <h1>SIVAM PROJECTS ADVISORY</h1>
+                </div>
+                <div class="subtitle">
+                    <h2>Advice that Works</h2>
+                </div>
+                <div>
+                    <p class="info">To facilitate improvement in alignment, productivity, organizational effectiveness, teambuilding and team relations to ensure superior project performance​</p>
+                </div>
+                <div>
+                    <a href="#book-appointment">
+                        <button class="title-btn">Book an Appointment</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Who we are-->
+    <section class="who">
+        <div class="who-we-container">
+            <div class="img-card">
+                <img src="/images/s2.webp" alt="Who-we-are-card">
+            </div>
+            <div class="who-we-are-content">
+                <h1 class="one">Who are we?</h1>
+                <h2 class="two">Prescriptions for your projects</h2>
+                <p class="three">We aim to improve the client business performance through enabling execution excellence and effective project delivery</p>
+                <p class="four">We help business owners implement a solid execution plan and a robust contracting strategy for their projects</p>
+                <a href="https://vtcsrao.in"><button class="who-btn five">Read More</button></a>
+            </div>
+        </div>
+    </section>
+    <!--Services-->
+    <section class="services">
+        <div class="services-container">
+            <h1 class="service-head">Our Services</h1>
+            <div class="service-cards">
+                <div class="service-card">
+                    <i class="fa fa-code"></i>
+                    <h2>Project Management Talent Developement</h2>
+                    <p>Diverse learning solutions cover project management, risk, contracts, profitability, planning, and professional effectiveness.</p>
+                    <button class="service-btn"><a href="services.html#project-management">Read More</a></button>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-envira"></i>
+                    <h2>Executive Coaching for Senior Executives</h2>
+                    <p>Tailored coaching and mentoring programs for senior professionals, focusing on governance, reviews, sponsorship, and crisis management in mega projects.</p>
+                    <button class="service-btn"><a href="services.html#executive-coaching">Read More</a></button>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-connectdevelop"></i>
+                    <h2>Project Delivery Process Improvement</h2>
+                    <p>Streamlined work process improvements include workflows, interface management, advanced work packaging, construction planning, and digital tools for performance tracking.</p>
+                    <button class="service-btn"><a href="services.html#delivery-process">Read More</a></button>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-envira"></i>
+                    <h2>Consultancy for Project Delivery Assurance​</h2>
+                    <p>Comprehensive project and risk management services include governance improvement, strategy development, stakeholder alignment, rescue solutions, and customizable risk management tools.</p>
+                    <button class="service-btn"><a href="services.html#consultancy-management">Read More</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Why Us-->
+    <section class="why-us">
+        <div class="why-us-container">
+            <div class="why-img">
+                <img src="/images/why.jpg" alt="Why-us-card">
+            </div>
+            <div class="why-us-content">
+                <h1 class="why-head">Why us?</h1>
+                <p class="why-p1">Our learning modules and methods follow the international best practices in Engineering and Construction industry covering all major industry domains such as Energy, Infrastructure, Ferrous Metals and Hydrocarbon Upstream and Downstream.​</p>
+                <p class="why-p2">We customize the training, coaching and effectiveness solutions to the business needs of customers</p>
+                <button class="why-btn">Read More</button>
+            </div>
+        </div>
+    </section>
+    <!--Appointment Section-->
+    <section id="book-appointment" class="book-appointment">
+        <div class="appointment-container">
+            <h1 class="appointment-head">Book an Appointment</h1>
+            <form action="https://formspree.io/f/xkgnzjle" method="POST">
+                <fieldset>
+                    <legend>For person</legend>
+                    <label>
+                        Name
+                        <input type="text" name="name" required>
+                    </label>
+                    <div class="two-cols">
+                        <label>
+                            Email address
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            Phone number
+                            <input type="tel" name="phone">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Appointment request</legend>
+                    <div class="two-cols">
+                        <label>
+                            Date
+                            <input type="date" name="Appointment request" required>
+                        </label>
+                        <div class="inline">
+                            <label>
+                                <input type="hidden" name="Morning desired" value="no">
+                                <input type="checkbox" name="Morning desired" value="yes">
+                                Morning
+                            </label>
+                            <label>
+                                <input type="hidden" name="Afternoon desired" value="no">
+                                <input type="checkbox" name="Afternoon desired" value="yes">
+                                Afternoon
+                            </label>
+                        </div>
+                    </div>
+                    <p>Confirmation requested by</p>
+                    <div class="inline">
+                        <label>
+                            <input type="radio" name="Confirmation requested by" value="email" checked>
+                            Email
+                        </label>
+                        <label>
+                            <input type="radio" name="Confirmation requested by" value="phone">
+                            Phone call
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="Data processing confirmed" value="Yes" required>
+                            <span>I agree to the processing of my data for the handling of my request by <a href="https://sivamprojectsadvisory.com" target="_blank">Sivam Projects Advisory</a>.</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="btns">
+                    <input type="text" name="_gotcha" value="" style="display:none;">
+                    <input type="submit" value="Submit request">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-card1">
+                <h1>About Us</h1>
+                <p>Sivam’s mission is to help project owners, consultants and Contractors to achieve efficiency and excellence in project Management and Executive Coaching</p>
+            </div>
+            <div class="footer-card2">
+                <div class="h1-class">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="mail-class">
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:sivamprojectadvisory@gmail.com">sivamprojectadvisory@gmail.com</a></p>
+                </div>
+                <div class="phone-class">
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:+91 8179560468">+91 8179560468</a></p>
+                </div>
+                <div class="youtube-class">
+                    <i class="fa fa-youtube"></i>
+                    <p><a href="https://www.youtube.com/channel/UCEpnj9NHhpxgVZWL1uGjGuw">Sivam Projects Advisory</a></p>
+                </div>
+                <div class="linkedin-class">
+                    <i class="fa fa-linkedin"></i>
+                    <p><a href="https://www.youtube.com/channel/UCEpnj9NHhpxgVZWL1uGjGuw">Linkedin-Sivam Projects Advisory</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <h1>Copyright@Sivam Projects Advisory</h1>
+        </div>
+    </footer>
+</body>
+</html>

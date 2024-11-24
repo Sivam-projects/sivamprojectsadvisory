@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivam Projects Advisory</title>
+    
+    
+    
+<link rel="stylesheet" href="./Sivam Projects Advisory_files/main.css"><link rel="stylesheet" href="./Sivam Projects Advisory_files/responsive.css"><link rel="stylesheet" href="./Sivam Projects Advisory_files/font-awesome.min.css"></head>
+<body>
+    <!--Navigation Bar-->
+    <div class="navbar">
+        <div class="navbar-left">
+            <div class="navbar-item-logo">
+                <img src="./Sivam Projects Advisory_files/logo.jpg" alt="Logo">
+            </div>
+            <div class="navbar-item">Home</div>
+            <div class="navbar-item">Services</div>
+            <div class="navbar-item">About Us</div>
+        </div>
+
+        <div class="navbar-right">
+            <div class="navbar-item-btn">
+                <button class="book-btn">Book an Appointment</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Carousel Content-->
+    <div class="container-carousel">
+        <div class="content">
+            <div class="title">
+                <h1>SIVAM PROJECTS ADVISORY</h1>
+            </div>
+            <div class="subtitle">
+                <h2>WE HELP YOU TO GROW YOUR BUSINESS</h2>
+            </div>
+            <div class="info">
+                <p>Our team of experts will help you to grow your business and take it to the next level. We provide the best services in the industry.</p>
+            </div>
+            <div class="btn">
+                <button class="title-btn">Book an Appointment</button>
+            </div>
+        </div>
+    </div>
+    
+    <!--Who we are-->
+    <div class="who-we-container">
+        <div class="img-card">
+            <img src="./Sivam Projects Advisory_files/s2.webp" alt="Who-we-are-card">
+        </div>
+        <div class="who-we-are-content">
+            <h1>Who we are?</h1>
+            <h2>Your Partner in Project Management</h2>
+            <p>We offer wide range of project management solutions for your Projects</p>
+            <button class="content-btn">Read More</button>
+        </div>
+    </div>
+    <!--Services-->
+    <div class="services-container">
+        <h1 class="service-head">Our Services</h1>
+        <div class="service-cards">
+            <div class="service-card">
+                <i class="fa fa-code"></i>
+                <h2>Project Management</h2>
+                <p>Our team of experts will help you to manage your projects and take it to the next level.</p>
+                <button class="service-btn">Read More</button>
+            </div>
+            <div class="service-card">
+                <i class="fa fa-envira"></i>
+                <h2>Training and Coaching</h2>
+                <p>Our team of experts will help you to manage your projects and take it to the next level.</p>
+                <button class="service-btn">Read More</button>
+            </div>
+            <div class="service-card">
+                <i class="fa fa-connectdevelop"></i>
+                <h2>Risk Analysis</h2>
+                <p>Our team of experts will help you to manage your projects and take it to the next level.</p>
+                <button class="service-btn">Read More</button>
+            </div>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
